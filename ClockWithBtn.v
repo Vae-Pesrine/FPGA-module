@@ -1,3 +1,5 @@
+//按键控制时钟
+//按下按键进入调节模式，可控制时分秒的增加和减少
 module ClockWithBtn #(
     parameter FREQUENCY_IN = 100_000_000
 )(

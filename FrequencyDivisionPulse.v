@@ -1,6 +1,6 @@
 //脉冲分频
 module FrequencyDivisionPulse#(
-    parameter FREQUENCY_IN = 50_000_000,
+    parameter FREQUENCY_IN       = 100_000_000,
     parameter FREQUENCY_OUT      = 100        
 )(
     input   wire        clk,    
